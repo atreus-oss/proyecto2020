@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link href="favicon.svg" rel="icon" type="image/x-icon" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+
+    <form id="form-admin">
+
+        <img src="img/logocnl.png" alt="logocnl" width="350px">
+
+        <div class="input-group mb-3 mt-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon-usuario">
+                    <i class="fas fa-user-alt"></i>
+                </span>
+            </div>
+            <input id="usuario_usuario" name="usuario_usuario" type="text" class="form-control" placeholder="Usuario"
+                aria-label="Usuario" aria-describedby="basic-addon-usuario">
+        </div>
+
+        <div class="input-group mb-1 mt-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon-clave">
+                    <i class="fas fa-key"></i>
+                </span>
+            </div>
+            <input id="clave_usuario" name="clave_usuario" type="password" class="form-control" placeholder="Contraseña"
+                aria-label="Contraseña" aria-describedby="basic-addon-clave">
+        </div>
+        
+        <div class="btn-group d-flex" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary" onclick="ingresar()">
+                <i class="fas fa-sign-in-alt"></i>Ingresar</button>
+            <button type="button" class="btn btn-danger" onclick="salir()">
+                <i class="fas fa-sign-out-alt"></i>Salir</button>
+          </div>              
+    <script src="js/jquery.min.js"></script>            
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/admin.js"></script>
+
+</body>
+                                  
+</html>

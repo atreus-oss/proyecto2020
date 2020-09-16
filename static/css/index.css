@@ -1,0 +1,18 @@
+.card-deck, .row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.pie{
+    position:static;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    height: 50px;
+    color: wheat;
+    padding-top: 15px;
+}
+
+.form-group{
+    margin-bottom: 4px;
+}

@@ -1,0 +1,16 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#form-admin{
+    width: 350px;
+    height: 620px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -310px;
+    margin-left: -175px;
+    /*background-color: aquamarine;*/
+}
